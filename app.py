@@ -6,7 +6,7 @@ MODEL = "mistralai/mistral-7b-instruct"
 
 st.set_page_config(page_title="Free AI Code Explainer", layout="centered")
 st.title("🤖 Free AI Code Explainer (OpenRouter)")
-st.markdown("Paste your Python or JavaScript code below to get a free GPT-3.5 explanation.")
+st.markdown("Paste your Python or JavaScript code below to get a mistral-7b free  explanation.")
 
 code_input = st.text_area("📝 Enter your code here", height=300)
 
